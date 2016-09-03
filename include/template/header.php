@@ -14,7 +14,13 @@
         <header>
             <nav>
                 <ul class="hide-on-mobile" id="nav-main">
-                
+                    <li>Media</li>
+                    <li>About</li>
+                    <li>Team</li>
+                    <li>LOGO</li>
+                    <li>FAQ</li>
+                    <li>Sign Up</li>
+                    <li>Contact</li>
                 </ul>
                 <ul class="hide-on-desktop" id="nav-hamburger">
                 

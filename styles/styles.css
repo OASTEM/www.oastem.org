@@ -104,3 +104,50 @@ img, video {
     max-width: 100%;
     height: auto;
 }
+header{
+    height: 6.25em;
+    background: #222 none repeat scroll 0% 0%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+nav{
+    text-align: center;
+    min-width: 800px;
+    width: 100%;
+    z-index: 9999;
+}
+
+ul#nav-main{
+    width: 8.333em;
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 0.333em 0px;
+    text-align: center;
+    line-height: 6.25em;
+    display: inline;
+    z-index: 9999;
+}
+
+ul#nav-main > li{
+    display: inline;
+    text-transform: uppercase;
+}
+
+ul#nav-main > li > a {
+	color: #DDD;
+	padding: 1em;
+	text-decoration: none;
+	font-size:1.667em;
+}
+
+nav a{
+	transition:color 0.25s ease 0s;
+}
+
+ul#navmain li a:hover {
+	color:#EEB346;
+}
