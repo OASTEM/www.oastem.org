@@ -23,7 +23,7 @@
                         <li><a href="/team">Team</a></li>
                         <li><a href="/"><img id="nav-logo" src="/images/nav-logo.svg"></a></li>
                         <li><a href="/faq">FAQ</a></li>
-                        <li><a href="/signup">Sign Up</a></li>
+                        <li><a href="/signup">Signup</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
                 </div>
@@ -37,7 +37,7 @@
                         <img src="/images/nav-logo.svg">
                     </li>
                     <li id="m-contact">
-                        <a href="/contact">Contact Us</a>
+                        <a href="/contact">Contact</a>
                     </li>
                 </ul>
                 <div id="m-menu">
@@ -46,7 +46,7 @@
                             $("#hamburger").slideToggle();
                         }
                     </script>
-                    <ul id="hamburger" class="hidden nav-main">
+                    <ul id="hamburger" class="hidden nav-elements">
                             <li><a href="/">Home</a></li>
                             <li><a href="/media">Media</a></li>
                             <li><a href="/about">About</a></li>

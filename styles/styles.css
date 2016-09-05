@@ -101,6 +101,10 @@ a:hover {
     width:100%;
 }
 
+li##hamburger-img{
+    padding-left: 1.75em;
+}
+
 #hamburger-img img{
     float:left;
     height:3em;
@@ -195,6 +199,8 @@ a:hover {
     }
 }
 
+.hidden{display:none}
+
 .sci-gr{
     color:#41AC4A;
 }
@@ -241,28 +247,23 @@ header{
 
 nav{
     text-align: center;
-    height:6.25em;
     line-height: 6.25em;
     width: 100%;
     z-index: 9999;
 }
 
 ul.nav-main{
-    width: 8.333em;
     list-style-type: none;
-    margin: 0px auto;
-    padding: 0.333em 0px;
-    text-align: center;
-    line-height: 6.25em;
-    display: inline;
-    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul.nav-main > li{
-    display: inline;
+   width:33%;
 }
 
-ul.nav-main > li > a {
+ul.nav-main > li > a, ul.nav-elements > li > a{
 	color: #DDD;
 	padding: 0em 0.75em;
 	text-decoration: none;
