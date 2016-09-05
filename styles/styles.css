@@ -28,9 +28,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-body {
-	line-height: 1;
-}
 ol, ul {
 	list-style: none;
 }
@@ -49,14 +46,96 @@ table {
 
 /* END CSS RESET*/
 
-* {
-    box-sizing: border-box;
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    margin:1em auto;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 900;
+}
+h2{
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+h4{
+    font-size: 1.5em;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+body {
+	/*background: #EEE /*url(../images/back2.png)*/;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+}
+
+a {
+	color: #497097;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px dotted #1A2836;
+	color: #1A2836;
 }
 
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
 }
+.hide-on-mobile{
+    display:none;
+}
+
+#m-menu{
+    float:left;
+    width:100%;
+}
+
+#hamburger-img img{
+    float:left;
+    height:3em;
+}
+
+#m-logo img{
+    height:5em;
+}
+
+#m-menu a{
+    height:3em;
+    line-height: 3em;
+    color:#DDD;
+}
+
+#m-menu li{
+    background-color:#333;
+    display:block;
+}
+
+#m-contact{
+    float: right;
+    padding:1em;
+}
+
+.about-dept-wrap .col-4 {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-dept-wrap p {
+    text-align: justify !important;
+}
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -71,6 +150,25 @@ table {
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+    
+    .hide-on-desktop{
+        display:none;
+    }
+    .hide-on-mobile{
+        display:inline;
+    }
+    
+    .about-dept-wrap{
+        margin:6em;
+    }
+    .dept-left{
+        float:left !important;
+    }
+    
+    .dept-right{
+        float:right !important;
+        text-align: right;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -87,11 +185,34 @@ table {
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
     .col-m-12 {width: 100%;}
+    
+    .dept-left{
+        float:left !important;
+    }
+    .dept-right{
+        float:right !important;
+        text-align: right;
+    }
+}
+
+.sci-gr{
+    color:#41AC4A;
+}
+
+.tch-bl{
+    color:#7396CE;
+}
+
+.egr-or{
+    color:#E95026;
+}
+
+.mth-ye{
+    color:#EAAE1D;
 }
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
 }
 
 .row::after {
@@ -104,8 +225,12 @@ img, video {
     max-width: 100%;
     height: auto;
 }
+
+#content-wrap{
+    margin-top:6.25em;
+}
+
 header{
-    height: 6.25em;
     background: #222 none repeat scroll 0% 0%;
     position: fixed;
     top: 0px;
@@ -116,12 +241,13 @@ header{
 
 nav{
     text-align: center;
-    min-width: 800px;
+    height:6.25em;
+    line-height: 6.25em;
     width: 100%;
     z-index: 9999;
 }
 
-ul#nav-main{
+ul.nav-main{
     width: 8.333em;
     list-style-type: none;
     margin: 0px auto;
@@ -132,22 +258,33 @@ ul#nav-main{
     z-index: 9999;
 }
 
-ul#nav-main > li{
+ul.nav-main > li{
     display: inline;
-    text-transform: uppercase;
 }
 
-ul#nav-main > li > a {
+ul.nav-main > li > a {
 	color: #DDD;
-	padding: 1em;
+	padding: 0em 0.75em;
 	text-decoration: none;
 	font-size:1.667em;
+    text-transform: uppercase;
 }
 
 nav a{
 	transition:color 0.25s ease 0s;
 }
 
-ul#navmain li a:hover {
+ul#nav-main li a:hover {
 	color:#EEB346;
+}
+
+ul#nav-main img{
+    vertical-align: middle;
+    height: 3em;
+    padding: 0.417em 0px;
+}
+
+#about-container{
+    background-color: #ECECEC;
+    padding: 5em;
 }
