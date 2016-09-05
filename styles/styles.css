@@ -274,11 +274,11 @@ nav a{
 	transition:color 0.25s ease 0s;
 }
 
-ul#nav-main li a:hover {
+ul.nav-main li a:hover {
 	color:#EEB346;
 }
 
-ul#nav-main img{
+ul.nav-main img{
     vertical-align: middle;
     height: 3em;
     padding: 0.417em 0px;
