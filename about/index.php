@@ -5,7 +5,7 @@ $templ->setTitle('About');
 $templ->render('header');
 ?>
 
-<div class="row">
+<div class="row" id="about-wrap">
     <div class="col-6" id="slideshow-container">
         <img src="https://placeholdit.imgix.net/~text?txtsize=18&bg=bd1521&txtclr=ffffff&txt=Slideshow+coming+soon&w=500&h=300&txttrack=0">
     </div>

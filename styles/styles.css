@@ -173,6 +173,21 @@ li##hamburger-img{
         float:right !important;
         text-align: right;
     }
+    
+    #about-wrap{
+        display:flex;
+    }
+    
+    #slideshow-container{
+        display:flex;
+    }
+    
+    #about-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5em;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -287,5 +302,4 @@ ul.nav-main img{
 
 #about-container{
     background-color: #ECECEC;
-    padding: 5em;
 }
