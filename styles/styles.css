@@ -143,7 +143,7 @@ li##hamburger-img{
     align-items: center;
 }
 .about-dept-wrap p {
-    text-align: justify !important;
+    text-align: justify;
 }
 .evt-info-wrap{
     position: absolute;
@@ -177,7 +177,7 @@ li##hamburger-img{
     }
     
     .about-dept-wrap{
-        margin:6em;
+        padding:6em;
     }
     .dept-left{
         float:left !important;
@@ -225,29 +225,31 @@ li##hamburger-img{
     }
     .dept-right{
         float:right !important;
-        text-align: right;
+        text-justify: right;
     }
 }
 
 .hidden{display:none}
 
+.parallax{background-attachment: fixed;}
+
+.white{
+    color:white;
+}
+
 .sci-gr{
-    color:#41AC4A;
     background-color:#41AC4A;
 }
 
 .tch-bl{
-    color:#7396CE;
     background-color:#7396CE;
 }
 
 .egr-or{
-    color:#E95026;
     background-color:#E95026;
 }
 
 .mth-ye{
-    color:#EAAE1D;
     background-color:#EAAE1D;
 }
 
@@ -321,6 +323,27 @@ ul.nav-main img{
 
 #about-container{
     background-color: #ECECEC;
+}
+
+.ab-dept-img{
+    background-attachment: fixed;
+    height:500px;
+}
+
+#ab-sci-img{
+    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+}
+
+#ab-tch-img{
+    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+}
+
+#ab-egr-img{
+    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+}
+
+#ab-mth-img{
+    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
 }
 
 .announcement-wrap{
