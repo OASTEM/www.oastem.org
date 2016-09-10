@@ -7,7 +7,7 @@ $templ->render('header');
 
 <div class="row" id="about-wrap">
     <div class="col-6" id="slideshow-container">
-        <img src="https://placeholdit.imgix.net/~text?txtsize=18&bg=bd1521&txtclr=ffffff&txt=Slideshow+coming+soon&w=500&h=300&txttrack=0">
+        <img src="https://placeholdit.imgix.net/~text?txtsize=18&bg=bd1521&txtclr=ffffff&txt=Slideshow+coming+soon&w=675&h=450&txttrack=0">
     </div>
     <div class="col-6" id="about-container">
         <h1>ABOUT US</h1>

@@ -59,8 +59,14 @@ h1{
     font-size: 4em;
     font-weight: 900;
 }
+
 h2{
     font-size: 3.5em;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 3em;
     font-weight: 900;
 }
 
@@ -218,25 +224,29 @@ li##hamburger-img{
 
 .sci-gr{
     color:#41AC4A;
+    background-color:#41AC4A;
 }
 
 .tch-bl{
     color:#7396CE;
+    background-color:#7396CE;
 }
 
 .egr-or{
     color:#E95026;
+    background-color:#E95026;
 }
 
 .mth-ye{
     color:#EAAE1D;
+    background-color:#EAAE1D;
 }
 
 [class*="col-"] {
     float: left;
 }
 
-.row::after {
+.row:after {
     content: "";
     clear: both;
     display: block;
@@ -302,4 +312,65 @@ ul.nav-main img{
 
 #about-container{
     background-color: #ECECEC;
+}
+
+.announcement-wrap{
+    background-color: #FFEC7D;
+    padding:1em;
+    font-weight: 300;
+    height:3em;
+}
+
+.calendar-wrap{
+    height:calc(100vh - 9.25em)
+}
+
+.cal-evt-wrap{
+    height:100%;
+}
+
+#calendar-events{
+    padding:2em;
+    overflow-y:scroll;
+    background-color:#EEEEEE;
+    height:100%;
+}
+
+.event-container{
+    display:flex;
+    margin:0.5em;
+}
+
+.date-box{
+    padding:1em;
+    text-align: center;
+    width:12em;
+}
+
+.date-box p, .date-box h3{
+    color:white;
+}
+
+.evt-summary h3{
+    font-size:2em;
+}
+
+.evt-summary{
+    padding:1em;
+    background-color: #fff; 
+    width:100%;
+}
+
+.evt-info-wrap{
+    background-color: #DEDEDE;
+    height:100%;
+}
+
+#evt-info{
+    background-color: white;
+    margin:1em;
+    padding:2em;
+    border-left:3em #7396CE solid;
+    height:95%;
+    overflow-y: scroll;
 }
