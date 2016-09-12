@@ -107,7 +107,7 @@ a:hover {
     width:100%;
 }
 
-li##hamburger-img{
+li#hamburger-img{
     padding-left: 1.75em;
 }
 
@@ -253,6 +253,10 @@ li##hamburger-img{
     background-color:#EAAE1D;
 }
 
+.gen-pu{
+    background-color: #7670B3;
+}
+
 [class*="col-"] {
     float: left;
 }
@@ -269,7 +273,7 @@ img, video {
 }
 
 #content-wrap{
-    margin-top:6.25em;
+    margin-top:5em;
 }
 
 header{
@@ -283,7 +287,6 @@ header{
 
 nav{
     text-align: center;
-    line-height: 6.25em;
     width: 100%;
     z-index: 9999;
 }
@@ -350,11 +353,11 @@ ul.nav-main img{
     background-color: #FFEC7D;
     padding:1em;
     font-weight: 300;
-    height:3em;
+    min-height:3em;
 }
 
 .calendar-wrap{
-    height:calc(100vh - 9.25em)
+    height:calc(100vh - 8em)
 }
 
 .cal-evt-wrap{
@@ -396,13 +399,21 @@ ul.nav-main img{
 .evt-info-wrap{
     background-color: #DEDEDE;
     height:100%;
+    overflow-y: scroll;
 }
 
 #evt-info{
     background-color: white;
     margin:1em;
     padding:2em;
-    border-left:3em #7396CE solid;
-    height:95%;
-    overflow-y: scroll;
+    border-left:3em #7670B3 solid;
+    min-height: 90%;
+}
+
+.selected{
+    background-color: #DEDEDE;
+}
+
+#evt-info-close{
+    color:#7670B3;
 }
