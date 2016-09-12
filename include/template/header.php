@@ -7,6 +7,8 @@
         
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet"> 
         
+        <link href="/images/Rhombus-Favicon.png" rel="icon">
+        
         <script
 			  src="https://code.jquery.com/jquery-3.1.0.min.js"
 			  integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
