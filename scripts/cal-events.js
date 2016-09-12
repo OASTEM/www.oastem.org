@@ -3,9 +3,8 @@ var detailsArr=[
     "We will be working on packing our tools for the competition as well as practicing driving our robot around.",
     "We will be working on pur robot for the Fall Classic competiton. The robot arm will be mounted and tested with the mentors. This is also the last day to build.",
     "We will be working on pur robot for the Fall Classic competiton. The robot arm will be mounted and tested with the Mr. Peralta.",
-    "We will be working on pur robot for the Fall Classic competiton. The robot arm will be mounted and tested with the Mr. Peralta.",
     "We will be working on pur robot for the Fall Classic competiton. The robot arm will be fixed and refurbished for use.",
-    "Come check out our booth during club rush  and sign up for STEM! It will be a blast, we promise!"
+    "Come check out our booth during club rush and sign up for STEM! It will be a blast, we promise!"
 ];
 
 var locationArr=[
@@ -21,16 +20,13 @@ var timeArr=[
     "8am - 5pm",
     "3 - 4:30pm",
     "9am - 12pm",
-    "3 - 5pm",
+    "3 - 5:30pm",
     "3 - 4:30pm",
     "Sept 12 - 15, Lunch"
 ];
 
 function clearSelected(){
-    $(".event-container").each(function(){
-        $(this).removeClass("selected");
-        $(this).css("background-color","white");
-    });
+    $(".event-container .selected").removeClass("selected");
 }
 
 function toggleEvtInfo(){

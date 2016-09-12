@@ -53,6 +53,7 @@ h1,h2,h3,h4,h5,h6,p{
 p{
     margin:1em auto;
     font-weight: 300;
+    font-size:16px;
 }
 
 h1{
@@ -145,6 +146,11 @@ li#hamburger-img{
 .about-dept-wrap p {
     text-align: justify;
 }
+
+.about-dept-wrap h4 span{
+    font-weight: 900;
+}
+
 .evt-info-wrap{
     position: absolute;
     display: none;
@@ -331,22 +337,23 @@ ul.nav-main img{
 .ab-dept-img{
     background-attachment: fixed;
     height:500px;
+    background-size: 100%;
 }
 
 #ab-sci-img{
-    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+    background-image: url("/images/science1.jpg");
 }
 
 #ab-tch-img{
-    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+    background-image: url("/images/tech1.jpg");
 }
 
 #ab-egr-img{
-    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+    background-image: url("/images/egr.jpg");
 }
 
 #ab-mth-img{
-    background-image: url("https://placeholdit.imgix.net/~text?txtsize=125&bg=333333&txt=lit+pic&w=1350&h=500&txttrack=0");
+    background-image: url("/images/math.jpg");
 }
 
 .announcement-wrap{
@@ -357,7 +364,7 @@ ul.nav-main img{
 }
 
 .calendar-wrap{
-    height:calc(100vh - 8em)
+    height:calc(100vh - 11em)
 }
 
 .cal-evt-wrap{
@@ -410,10 +417,50 @@ ul.nav-main img{
     min-height: 90%;
 }
 
+
+#evt-desc{
+    margin-top:1em;
+    font-size: 16px;
+}
+
+#evt-title{
+    margin-bottom:0.5em;
+}
+
 .selected{
     background-color: #DEDEDE;
 }
 
 #evt-info-close{
     color:#7670B3;
+}
+
+
+#date-wrap{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size:1.25em;
+    background-color: white;
+    padding:0.75em;
+    height:2.75em;
+}
+#date-wrap span{
+    font-weight: 900;
+    padding-left: 1em;
+}
+
+#date-wrap .sci{
+    color:#41AC4A;
+}
+
+#date-wrap .tech{
+    color:#7396CE;
+}
+
+#date-wrap .egr{
+   color:#E95026;
+}
+
+#date-wrap .math{
+    color:#EAAE1D;
 }

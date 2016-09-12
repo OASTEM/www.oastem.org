@@ -18,11 +18,10 @@
             <nav class="hide-on-mobile">
                 <div>
                     <ul class="nav-main">
-                        <li><a href="/media">Media</a></li>
+                        
                         <li><a href="/about">About</a></li>
-                        <li><a href="/team">Team</a></li>
-                        <li><a href="/"><img id="nav-logo" src="/images/nav-logo.svg"></a></li>
                         <li><a href="/faq">FAQ</a></li>
+                        <li><a href="/"><img id="nav-logo" src="/images/nav-logo.svg"></a></li>
                         <li><a href="/signup">Signup</a></li>
                         <li><a href="/contact">Contact</a></li>
                     </ul>
@@ -48,9 +47,7 @@
                     </script>
                     <ul id="hamburger" class="hidden nav-elements">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/media">Media</a></li>
                             <li><a href="/about">About</a></li>
-                            <li><a href="/team">Team</a></li>
                             <li><a href="/faq">FAQ</a></li>
                             <li><a href="/signup">Sign Up</a></li>
                             <li><a href="/contact">Contact</a></li>
