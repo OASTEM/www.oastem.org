@@ -6,7 +6,7 @@
     <meta property="og:title" content="<?php print Template::getInstance()->getVar('open-graph', 'title'); ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php print Template::getInstance()->getVar('open-graph', 'url'); ?>">
-    <meta property="og:image" content="/images/Rhombus-Favicon.png">
+    <meta property="og:image" content="/images/Square-Favicon.png">
     <meta property="og:description" content="<?php print Template::getInstance()->getVar('open-graph', 'description'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
