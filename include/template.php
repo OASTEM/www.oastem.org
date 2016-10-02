@@ -1,6 +1,6 @@
 <?php
 
-// Template class, created by kevin@oastem.org, modified by brandon@oastem.org, licensed under GPL
+// Template class, created by kevin@oastem.org, modified by brandon@oastem.org and peter@oastem.org, licensed under GPL
 
 class Template {
 	private $path = '';
