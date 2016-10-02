@@ -36,11 +36,11 @@ class Template {
 		$this->setVar('header', 'title', htmlspecialchars($title));
 	}
     
-	   public function setOpenGraph($title, $url, $description){
-        $this->setVar('open-graph', 'title', htmlspecialchars($title));
-        $this->setVar('open-graph', 'url', htmlspecialchars($url));
-        $this->setVar('open-graph', 'description', htmlspecialchars($description));
-    }
+	public function setOpenGraph($title, $url, $description){
+		$this->setVar('open-graph', 'title', htmlspecialchars($title));
+		$this->setVar('open-graph', 'url', htmlspecialchars($url));
+		$this->setVar('open-graph', 'description', htmlspecialchars($description));
+	}
     
 	public function render($templ) {
 		global $user, $db; 
