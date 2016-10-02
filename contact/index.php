@@ -1,6 +1,9 @@
 <?php
 require('../common.php');
-$templ->setTitle('Contact Us');
+$title = "Contact Us";
+$url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$templ->setTitle($title);
+$templ->setOpenGraph($title, $url, "Send us any questions, comments or concerns using our web contact form. You can also find additional contact methods here.");
 $templ->render('header');
 ?>
     <script src='https://www.google.com/recaptcha/api.js'></script>

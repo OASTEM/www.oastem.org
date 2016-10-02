@@ -1,7 +1,10 @@
 <?php
 require('../common.php');
 
-$templ->setTitle('Frequently Asked Questions');
+$title = "Frequenty Asked Questions";
+$url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$templ->setTitle($title);
+$templ->setOpenGraph($title, $url, "Read answers on our FAQ to learn more about us!");
 $templ->setVar('header', 'jsLoad', '$(\'div#faqQuestions\').accordion();');
 $templ->render('header');
 ?>

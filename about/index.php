@@ -1,7 +1,11 @@
 <?php
 require('../common.php');
 
-$templ->setTitle('About');
+
+$title = "About";
+$url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$templ->setTitle($title);
+$templ->setOpenGraph($title, $url, "Learn more about Oxford Academy STEM.");
 $templ->render('header');
 ?>
 
