@@ -26,7 +26,7 @@ $templ->render('header');
                 </div>
                 <div class="evt-summary selected">
                     <h3>Non Destructive Testing Workshop</h3>
-                    <p>NDT (nondestructive testing) involves...</p>
+                    <p>Only the first 40 students...</p>
                 </div>
             </div>
            
@@ -35,7 +35,7 @@ $templ->render('header');
                     <h3>04</h3>
                     <p>OCT 2016</p>
                 </div>
-                <div class="evt-summary selected">
+                <div class="evt-summary">
                     <h3>Navy Apprenticeship Program</h3>
                     <p>seap.asee.org/apply</p>
                 </div>
@@ -46,9 +46,9 @@ $templ->render('header');
                     <h3>04</h3>
                     <p>OCT 2016</p>
                 </div>
-                <div class="evt-summary selected">
+                <div class="evt-summary">
                     <h3>Math Counts Meeting</h3>
-                    <p>The math team, including...</p>
+                    <p>We will be working on more...</p>
                 </div>
             </div>
             
@@ -57,9 +57,9 @@ $templ->render('header');
                     <h3>04</h3>
                     <p>OCT 2016</p>
                 </div>
-                <div class="evt-summary selected">
+                <div class="evt-summary">
                     <h3>Civil Engineering Meeting</h3>
-                    <p>The math team, including...</p>
+                    <p>Hello everyone...</p>
                 </div>
             </div>
             
@@ -80,7 +80,7 @@ $templ->render('header');
                     <h3>01</h3>
                     <p>OCT 2016</p>
                 </div>
-                <div class="evt-summary selected">
+                <div class="evt-summary">
                     <h3>Engineering Meeting</h3>
                     <p>For those of you who do not...</p>
                 </div>
@@ -91,7 +91,7 @@ $templ->render('header');
                     <h3>29</h3>
                     <p>SEP 2016</p>
                 </div>
-                <div class="evt-summary selected">
+                <div class="evt-summary">
                     <h3>Mathematics Meeting</h3>
                     <p>The math team, including...</p>
                 </div>
@@ -102,7 +102,7 @@ $templ->render('header');
                     <h3>28</h3>
                     <p>SEP 2016</p>
                 </div>
-                <div class="evt-summary selected">
+                <div class="evt-summary">
                     <h3>Technology Meeting</h3>
                     <p>We'll be giving a sneak peek...</p>
                 </div>
@@ -222,13 +222,13 @@ $templ->render('header');
     <div class="col-8 evt-info-wrap">
         <div id="evt-info">
             <h4 id="evt-info-close" class="hide-on-desktop" onclick="toggleEvtInfo()">&lt;Back</h4>
-            <h1 id="evt-title">Technology Meeting</h1>
+            <h1 id="evt-title">Non Destructive Testing Workshop</h1>
 
-            <h4 id="evt-loc">Room 102</h4>
-            <h4 id="evt-time">3 - 4:30pm</h4>
+            <h4 id="evt-loc">Long Beach Convention Center</h4>
+            <h4 id="evt-time">9am-2pm</h4>
 
             <div id="evt-desc">
-                We'll be giving a sneak peek into what we are expecting to accomplish this year and hosting a fun activity involving HTML. <br><br>If you have your own personal laptop, please do bring it to the meeting. We will be using an online development environment, and no download is required. If you do not have access to a laptop, please reply to this email so that I can reserve a STEM laptop for you. We have 8 laptops available for your use, and they will be allocated by a first come first serve basis.
+                Only the first 40 students who turn their two permission slips (attached below) and their $15 bus fee to Mr. Alcala will get to go. If you have any questions contact Ms. Morrissey in Room 206.<br><br>NDT (nondestructive testing) involves examining and inspecting a wide variety of materials, components or assemblies for discontinuities and quality without destroying their integrity. NDT is utilized in a variety of industries. NDT has a bright future both in this country and throughout the world, offering young adults many career options. ASNT is coming to Long Beach, CA in October and has invited 40 Oxford Academy high school students to attend a free daylong workshop titled Nondestructive Testing: Positive Contributions to Safety and Economics. The workshop will include an introduction to NDT with examples of technical application through interactive demonstrations and hands-on activities. This sponsored workshop is free because it is a part of ASNT’s mission to promote the profession and technologies of nondestructive testing.  This is full day seminar of NDT education for high school students interested in STEM careers. Local members from the organization will be on hand to talk to the students and conduct hands-on experiments.<br><br><a href='https://drive.google.com/open?id=0B5nR46Lwjli3cVRxZ19JMm5xSTRaME45eTNEUEhyWnpBd2d3' target="_blank">ASNT Field Trip Permission Slip</a><br><a href='https://drive.google.com/open?id=0B5nR46Lwjli3bEtRVUJhUzRxc1IyTF9SNVp2THlqR3gxRWFN' target='_blank'>ASNT Photo Release - NDT Workshop</a>
             </div>
         </div>
     </div>
