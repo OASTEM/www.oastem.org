@@ -8,7 +8,7 @@ class Template {
 	private $vars = array();
 	
 	private function __construct($path = '') {
-		$this->path = (!empty($path) ? $path : $_SERVER['DOCUMENT_ROOT'] . '/include/template/');
+		$this->path = (!empty($path) ? $path : __DIR__ . '/template/');
 	}
 	
 	public static function getInstance($path = '') {
@@ -45,11 +45,6 @@ class Template {
 	public function render($templ) {
 		global $user, $db; 
 		require($this->path . $templ . '.php');
-	}
-	
-	public function header() {
-		global $user, $db;
-		require($this->path . 'header.php');
 	}
 	
 	public function getVar($section, $key) {
