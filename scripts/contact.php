@@ -2,11 +2,21 @@
 
 session_start();
 require ('../config.php');
+
+$addr_remote = $_SERVER['REMOTE_ADDR'];
+$addr_fwd = $_SERVER['HTTP-X-FORWARDED-FOR'];
+
+$remote = "";
+
+if($addr_remote != $addr_fwd) $remote = "[$addr_remote] $addr_fwd";
+else $remote = $addr_remote;
+
 $from = $_POST["from"];
 $email = $_POST["email"];
-$subject = $_POST["subject"];
 $message = $_POST["message"];
-$message = "Message from $from ($email):\n\n" . $message;
+$subject = "Message from $from ($email) $remote";
+
+$add_headers = "From: web-form@oastem.org";
 $location = "Location: https://oastem.org/contact/";
 
 // captcha verification
@@ -28,7 +38,7 @@ if ($crd === null || !$crd->success) {
 	header($location);
 //    $_SESSION['flash'] = "A verification error occured";
 } else { 
-    mail ("kevin@oastem.org", $subject, $message);
+    mail ("brandon@oastem.org", $subject, $message, $add_headers);
 //    $_SESSION['flash'] = "Sent!";
     header($location);
 }

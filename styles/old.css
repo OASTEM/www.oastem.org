@@ -640,7 +640,7 @@ nav ul ul ul{
 	left:100%;
 	top:0;
 }
-input[type='text']{
+input[type='text'],input[type='email']{
     width: 100%;
 }
 textarea{
@@ -648,7 +648,7 @@ textarea{
     resize: none;
 }
 
-input[type='text'], input[type='password'], input[type='submit'], select, button, textarea {
+input[type='text'], input[type='password'], input[type='submit'], select, button, textarea, input[type='email'] {
 	background: #E2E2E2;
 	border: 0.083em solid #CCC;
 	padding: 0.25em;
@@ -656,19 +656,24 @@ input[type='text'], input[type='password'], input[type='submit'], select, button
 	margin: 0 1em;
 }
 
-input[type='text']:hover, input[type='password']:hover, input[type='submit']:hover, select:hover, button:hover, textarea:hover {
+.g-recaptcha{
+    padding: 0.25em;
+    margin: 0 1em;
+}
+
+input[type='text']:hover, input[type='password']:hover, input[type='submit']:hover, select:hover, button:hover, textarea:hover, input[type='text']:hover {
 	background: #DDD;
 	border: 1px solid #BBB;
 }
 
-input[type='text']:focus, input[type='password']:focus, input[type='submit']:active, select:focus, button:active, textarea:focus {
+input[type='text']:focus, input[type='password']:focus, input[type='submit']:active, select:focus, button:active, textarea:focus, input[type='text']:focus{
 	background: #EEE;
 	border: 0.083em solid #AAA;
 }
 
-input[type='text'], input[type='password'] {
+/**input[type='text'], input[type='password'] {
 	width: 14.583em;
-}
+}*/
 
 input[type='text'].num {
 	width: 2.083em;

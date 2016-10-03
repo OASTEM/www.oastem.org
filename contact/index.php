@@ -20,7 +20,6 @@ $templ->render('header');
                     <form action="../scripts/contact.php" method="POST">
                         <input type="text" name="from" placeholder="Name" required>
                         <input type="email" name="email" placeholder="Email" required>
-                        <input type="text" name="subject" placeholder="Subject" required>
                         <textarea rows="5" name="message" placeholder="Message" required></textarea>
                         <div class="g-recaptcha" data-sitekey="6LeJLAgUAAAAAOfIZpAYMlb59eFEDbT_SOXWRBBf"></div>
                         <input type="submit" value="Submit"> </form>
