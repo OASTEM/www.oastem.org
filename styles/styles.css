@@ -391,6 +391,7 @@ ul.nav-main img{
 
 .date-box p, .date-box h3{
     color:white;
+    text-transform: uppercase;
 }
 
 .evt-summary h3{
