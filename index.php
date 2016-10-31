@@ -10,7 +10,7 @@ $templ->render('header');
 <script src="/scripts/cal-events.js"></script>
 
 <div class="announcement-wrap">
-                Please check the calendar for an amazing field trip as well as a Navy apprentenship opportunity.
+                Check out <a href="https://oastem.org/shirts" target="_blank">oastem.org/shirts</a> and order your sweatshirt and T-shirts now!
 </div>
 <div id="date-wrap">
     <span>Meeting</span> Days | <span class="sci">Science</span> Tuesday <span class="tech">Technology</span> Wednesday <span class="egr">Engineering</span> Monday &amp; Saturday <span class="math">Math</span> Thursday

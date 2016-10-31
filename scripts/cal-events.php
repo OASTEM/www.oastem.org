@@ -47,8 +47,11 @@ function processEvents($time_min = "-7 days", $time_max = "", $max_results = 0, 
     $event_arr = array(array());
     $page_html = "";
     $eid = $eidL + 1;
-
-    foreach ($events->getItems() as $event) {    
+    
+    $pull_arr = $events->getItems();
+    array_reverse($pull_arr);
+    
+    foreach ($pull_arr as $event) {    
 
         $event_arr[$eid]['title'] = $event->getSummary();
         $event_arr[$eid]['desc'] = $event->getDescription();
@@ -63,7 +66,7 @@ function processEvents($time_min = "-7 days", $time_max = "", $max_results = 0, 
             case "10": $color_class = "sci-gr"; break;
             case "9": $color_class = "tch-bl"; break;
             case "11": $color_class = "egr-or"; break;
-            case "5": $color_class = "math-ye"; break;
+            case "5": $color_class = "mth-ye"; break;
             default: $color_class = "gen-pu";
         }
         

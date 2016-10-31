@@ -80,7 +80,7 @@ function processEventTime($start, $end, $desc){
 function processAttachments($a){
     $string = "";
     foreach($a as $attachment){
-        $link = $attachment['fuleUrl'];
+        $link = $attachment['fileUrl'];
         $icon = $attachment['iconLink'];
         $title = $attachment['title'];
         
