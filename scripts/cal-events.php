@@ -49,7 +49,7 @@ function processEvents($time_min = "-7 days", $time_max = "", $max_results = 0, 
     $eid = $eidL + 1;
     
     $pull_arr = $events->getItems();
-    array_reverse($pull_arr);
+    $pull_arr = array_reverse($pull_arr);
     
     foreach ($pull_arr as $event) {    
 
